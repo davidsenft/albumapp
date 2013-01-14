@@ -5,4 +5,6 @@ A visually immersive, mobile-friendly web app for accompanying a musical album--
 
 Live demo: <a href='http://www.pilotmachines.com/'>Darlingside - Pilot Machines</a>
 
+Uses JPlayer, Handlebars, and Supersized.
+
 UNDER CONSTRUCTION!

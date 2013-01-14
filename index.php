@@ -92,6 +92,7 @@ if (isset($_GET['track'])){
 	<button id='buy' class='hover'>Buy</button>
 </div>
 <div id="jplayer"></div>
+<div id='black'></div>
 
 <?php include('album-template.html'); ?>
 

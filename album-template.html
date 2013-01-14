@@ -3,7 +3,7 @@
 <h1 class='noborder'>{{name}}</h1>
 <h2 class='noborder'>An album by {{artist.name}}</h2>
 <img id='albumcover' src="{{cover}}" alt="Album cover of {{name}} by {{artist.name}}">
-<div id='albuminstructions'>
+<div class='topborder' id='albuminstructions'>
 	<p class='bebas'>Click any track:</p>
 </div>
 <ol id='albumtracks'>
@@ -35,16 +35,18 @@
 <h2 id='getmore'>More from {{artist.name}}</h2>
 <p id='morefrom'>
 	{{#with artist}}
-	<img src='{{image}}' style='width:98%;border-radius:5px;'><br>
+	<img src='{{image}}' style='width:96%;border-radius:3px;border:1px solid #ccc;'><br>
 	<a href='{{twitter}}' title='{{name}} is on Twitter!' class='social' target='_blank'>&#62217;</a>
 	<a href='{{vimeo}}' title='{{name}} is on Vimeo!' class='social' target='_blank'>&#62214;</a>
 	<a href='{{soundcloud}}' title='{{name}} is on Soundcloud!' class='social' target='_blank'>&#62280;</a>
 	<a href='{{spotify}}' title='{{name}} is on Spotify!' class='social' target='_blank'>&#62248;</a>
 	<a href='{{instagram}}' title='{{name}} is on Instagram!' class='social' target='_blank'>&#62253;</a>
 	<a href='{{facebook}}' title='{{name}} is on Facebook!' class='social' target='_blank'>&#62222;</a>
-	<a href='{{google}}' title='{{name}} is on Google+!' class='social' target='_blank'>&#62223;</a><br>
+	<a href='{{google}}' title='{{name}} is on Google+!' class='social' target='_blank'>&#62223;</a>
+	<a href='{{calendar}}' title='{{name}} tour schedule' class='entypo' target='_blank'>&#128197;</a>
+	<a href='{{fanlist}}' title='{{name}} fan mailing list' class='entypo' target='_blank'>&#9993;</a><!--<br>
 	<a href='{{calendar}}' title='{{name}} tour schedule' class='bump-up' target='_blank'>
-		<span class='entypo'>&#128197;</span><span class='text'> Tour Schedule</span></a><br>
+		<span class='entypo'>&#128197;</span><span class='text'> Tour Schedule</span></a><br>-->
 	{{/with}}
 </p>
 <h2>Thanks</h2>
