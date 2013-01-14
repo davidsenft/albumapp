@@ -1,5 +1,5 @@
 # The Album App #
 
-## By Darlingside ##
+### By Darlingside ###
 
-See a live demo <a href='http://www.pilotmachines.com/'>here</a>
+Live demo: <a href='http://www.pilotmachines.com/'>Darlingside - Pilot Machines</a>
