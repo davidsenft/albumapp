@@ -1,0 +1,187 @@
+{
+	"albumdata": {
+		"artist": {
+			"name": "Darlingside",
+			"image": "http://cdn.darlingside.com/press/darlingside_in-studio-2012_greg-nesbit_380-animated.gif",
+			"facebook": "http://www.facebook.com/darlingside",
+			"twitter": "http://www.twitter.com/darlingside",
+			"youtube": "http://www.youtube.com/darlingside",
+			"vimeo": "http://www.vimeo.com/darlingside",
+			"soundcloud": "http://www.soundcloud.com/darlingside",
+			"google": "http://plus.google.com/+darlingside",
+			"instagram": "http://instagram.com/darlingside",
+			"spotify": "http://open.spotify.com/artist/3DkhgIw7lIyxekurpXNTrm",
+			"website": "http://www.darlingside.com",
+			"calendar": "http://www.darlingside.com/shows",
+			"itunes": "https://itunes.apple.com/us/artist/darlingside/id254259212",
+			"blog": "http://www.darlingside.com/blog"
+		},
+		"name": "Pilot Machines",
+		"cover": "http://cdn.darlingside.com/art/darlingside-PILOTMACHINES-phys-420.jpeg",
+		"publisher": "Darlingside Music Publishing (ASCAP)",
+		"copyright": "&copy; 2012 Darlingside. All Rights Reserved.",
+		"googleanalytics": "UA-7363802-4",
+		"buy": "http://www.darlingside.com/store/",
+		"notes": "<p>All songs written, arranged, and performed by Darlingside<br />Except for: \"Drowning Elvis\" lyrics written by Darlingside with Michael Kohn; \"Ava\" written by Darlingside with Bernice Lewis; \"Sweet and Low\" performed with Caitlin Canty (vocals); \"The Woods\" string duet (1:06-1:11) written by W. A. Mozart, arranged and performed by Darlingside<br /><br />Produced by Nathaniel Kunkel and Darlingside<br />Mixed by Nathaniel Kunkel<br />Recorded by Nathaniel Kunkel, Eric Weaver, and Sam Kapala<br />Mastered by Doug Sax and Robert Hadley at The Mastering Lab<br />Production Coordination by Ivy Skoff<br />Art design by Bruce Licher and Darlingside</p>",
+		"tracks": [
+			{
+				"name": "Still",
+				"uri": "still",
+				"time": "2:43",
+				"lyrics": "<p>There was a time<br>How did we go about it?<br>One step at a time<br>Now we're happy standing<br>Still I love you still<br><br>Everything stays just like the old days<br>We get a sip and then we sip it till it's dry<br>Count all the ways it's just like the good days<br>We get a whiff and then it's with us till we die<br>Still it's with us still<br>Still I love you still<br><br>\"And now a message from our sponsors\"<br>\"We will be with you momentarily\"<br><br>Shhh, what's that sound? It's awful quiet<br>But I know that sound, maybe we've still got it!<br>Still we've got it still<br><br>When do these days become the old days?<br>This place gets dustier the more we let it in<br>Count all the ways it's just like the good old days<br>Take a number and we'll go around again<br>Still we're going still<br>Still we've got it still<br>Still it's with us still<br>Still I love you still<br><br>\"We do appreciate your patience\"<br>\"Your satisfaction is our first concern\"<br>\"Locate the nearest exit\"<br><br>Carry on, don't get me started<br>It's what we've got, it's what we wanted<br>Still we want it still<br>Still we've got it<br>Still it's with us<br>Still I love you still</p>"
+			},
+			{
+				"name": "The Woods",
+				"uri": "the-woods",
+				"time": "3:31",
+				"lyrics": "<p style='text-align:right'>Until the leaf falls<br>I've never seen a tree<br>Every time I go into the woods<br><br>Before the sundown<br>I never know the time<br>Every time I go into the woods<br><br>I'm always certain<br>It hasn't been that long<br>Every time I go into the woods<br><br>I'm always learning<br>Things I've learned before<br>Every time I go into the woods</p>",
+				"video": "http://www.youtube.com/embed/tly5ObwBOOo"
+			},
+			{
+				"name": "Drowning Elvis",
+				"uri": "drowning-elvis",
+				"time": "2:42",
+				"lyrics": "<p>Dead in the water<br>Circles on the mooring each day<br>The murmuring loons across the bay<br>Where I used to walk the surface with you<br><br>Pull me under<br>I've been dreaming<br><br>Dead in the water<br>Looking for a reason to stay<br>To usher out the current in your wake<br>When I used to walk the surface with you<br><br>Pull me under<br><br>Dead in the water<br>Which only makes it harder to say<br>I'm a messed up cowboy Jesus<br>You're the horse who gets away<br>And I used to walk on water with you</p>"
+			},
+			{
+				"name": "Ava",
+				"uri": "ava",
+				"time": "4:26",
+				"lyrics": "<p>As we get to altitude, you pull out a photograph of blue shutters in the afternoon and boats on the water. I'm gonna have to think this through: how could you feel for a man the way a man could feel for you? You're talking in tongues to me and I've got a sudden fear of flying...<br><br>&nbsp;&nbsp;Half of the day, half of the night, Ava<br><br>Up here you can't feel the world turn. Drinks only come around once, you'd think that they would learn. How's the two thousand and six? Is that the year for merlot? I've been waiting for something like this...<br><br>&nbsp;&nbsp;Half of the day, half of the night, Ava<br><br>Ava, would you like me to be 29 or 23? With great height comes great ephemerality. Maybe we could acclimate to conditions on the ground...</p>"
+			},
+			{
+				"name": "The Company We Keep",
+				"uri": "the-company-we-keep",
+				"time": "3:51",
+				"lyrics": "<p><span style='font-size:0.9em;'><strong>CHORUS: We have landed miles away from our families.<br><span style='visibility:hidden;'>CHORUS: </span>We have landed miles away from our families.</strong><br><br>SOLO: I am still my mother's son.<br><br><strong>CHORUS: I am still my mother's son.</strong><br><br>SOLO: Who would I be on my own?<br><span style='visibility:hidden;'>SOLO: </span>Who would I be on my own?<br><br><br><strong>CHORUS: We have started a song that we can all play the parts to.<br><span style='visibility:hidden;'>CHORUS: </span>We have started a song that we can all play the parts to.</strong><br><br>SOLO: I am not the only one.<br><br><strong>CHORUS: I am not the only one.</strong><br><br>SOLO: Who would I be on my own?<br><span style='visibility:hidden;'>SOLO: </span>Who would I be on my own?<br><br><br><strong>CHORUS: In this home we are the company, company we...<br><span style='visibility:hidden;'>CHORUS: </span>In this home we are the company, company we...</strong><br><br>SOLO: We are the company we keep.<br><br><strong>CHORUS: We are the company we keep.</strong><br><br>SOLO: Who would I be on my own?<br><span style='visibility:hidden;'>SOLO: </span>Who would I be on my own?<br><span style='visibility:hidden;'>SOLO: </span>Who would I be on my own?</span></p>"
+			},
+			{
+				"name": "Blow The House Down",
+				"uri": "blow-the-house-down",
+				"time": "3:41",
+				"lyrics": "<p style='text-align:center'>This one goes to market<br>This one makes a meal at home<br>This one has closets<br>While the have-nots down the way have none<br><br>So I go to the mountains, I go to the river<br>I pilot machines<br>People have places<br>And the places have the people's dreams<br>Oh! Puff, puff and blow the house down<br><br>There's a song for the robbers<br>On the other side of windowpanes<br>A song for the cowboys<br>Held up in hundred-mile-an-hour trains<br><br>And there's one for the lovers, and one for the sinners<br>That they sing in the pews<br>Short of distinctions<br>I'd say we've all grown tired of singing blues<br><br>Oh! Puff, puff, and blow the house down</p>",
+				"video": "http://player.vimeo.com/video/45520110"
+			},
+			{
+				"name": "Only Echoes",
+				"uri": "only-echoes",
+				"time": "4:05",
+				"lyrics": "<style type='text/css'>#echoeslyrics {margin:10px 0;} #echoeslyrics p {margin:0;height:18px;text-align:justify;text-align-last:justify;} #echoeslyrics p:after {content:'';display:inline-block;width:100%;}</style><div id='echoeslyrics'><p>do you run perpetually late?</p><p>i'm the early bird i've fallen for the bait</p><p style='height:36px;'>i want you now</p><p>water doesn't make a fire grow</p><p>like a pistil after all the petals go</p><p style='height:36px;'>i want you now</p><p style='height:36px;'>hello? hello?</p><p>i swear i've got my head on straight</p><p>i've been sitting like a duck i need a break</p><p style='height:36px;'>i want you now</p><p>patterns on the ballroom floor</p><p>i take issue with the patterns on the ballroom floor</p><p style='height:36px;'>i want you now</p><p>only echoes when i call to you</p><p>yesterday today tomorrow</p><p>is too far away from</p><p>hello? hello?</p></div>"
+			},
+			{
+				"name": "When Fortune Comes",
+				"uri": "when-fortune-comes",
+				"time": "3:04",
+				"lyrics": "<p>I don't want to know about the weight on your back<br>Every stone you gather and stack&mdash;from now on<br>Don't look at me for an ounce of pity<br>I don't want to know when fortune comes<br>Cheated, borrowed, stolen, or won&mdash;same thing<br>The rocks all show when the river runs low<br><br>Acting like everything's free<br><br>I don't want to know how you bide your time<br>Consider me deaf, consider me dumb and blind<br>Consider me true to the man I knew<br><br>I don't want to know how you make your way<br>Dropping stones to get back someday&mdash;well, go on<br>Every stride is another left behind<br><br>You're acting like everything's free<br>There's always a cost underneath<br>Where're you gonna go when the road runs out?<br>Fallen down, half-dead, waking in a flowerbed<br>Where're you gonna turn when your bridges all burn?<br><br>Acting like everything's free<br>There's always a cost underneath<br><br>I don't want to know where you lost the track<br>Going, gone, and never came back&mdash;it's the same thing<br>What'd you do with the person I knew?</p>"
+			},
+			{
+				"name": "My Love",
+				"uri": "my-love",
+				"time": "4:36",
+				"lyrics": "<p>My half-assed best was all I had for your love, my maybe-tomorrows for your heart-to-hearts, my punch-drunk house calls for your candles and wine, my brother, my banjo, my never-done-wrong, all you wanted was me by your side. I tend to get what I want and do as I please, but you taught me I can't always get away with everything I thought I could and for that I thank you, my love. You weren't the first to call me an arrogant son-of-a-bitch, but only out of your lips could those words pull me out of my head, and now I spend my days alone and stay up all night with a picture of whiskey to my left, a bottle of you to my right.</p>"
+			},
+			{
+				"name": "Terrible Things",
+				"uri": "terrible-things",
+				"time": "3:53",
+				"lyrics": "<p>ANSEL ADAMS ON THE WALL ABOVE THE BED AND THE TREES ARE BLACK AND WHITE CHRISTMAS HOLED UP IN THE ADIRONDACKS DOOR WHERE WE PENCILED IN OUR HEIGHT NUTMEG ROLLING PINS FLOOR WHERE I KISSED MY BROTHER'S WIFE<br><br>ALL OF THE TERRIBLE THINGS I HAVE DONE HELL IS A PLACE WHERE A HORSE CANNOT RUN I AM THE HORSE I'M THE ONE WHO CAN'T RUN ALL OF THE TERRIBLE THINGS I'VE DONE<br><br>MAGNETS UP ON THE REFRIGERATOR SENTENCES CHANGE FROM NIGHT TO NIGHT ANSEL ADAMS ON THE WALL ABOVE THE DOOR WHERE WE PENCILED IN OUR HEIGHT<br><br>ALL OF THE TERRIBLE THINGS I HAVE DONE HELL IS A PLACE WHERE A HORSE CANNOT RUN I AM THE HORSE I'M THE ONE WHO CAN'T RUN ALL OF THE TERRIBLE THINGS I'VE DONE</p>"
+			},
+			{
+				"name": "The Ancestor",
+				"uri": "the-ancestor",
+				"time": "3:18",
+				"lyrics": "<p>Go on, bury me<br>Under stone or under sea<br>Silent pictures<br>Keep the fishes company<br>There is little else for me now<br><br>But I will find my way<br>Out of the dark someday<br>Into a crimson yellow sun<br><br>Science fictional<br>When the morning comes we will<br>Walk for light years<br>Watch the nebulas appear<br>There is little else for me now<br><br>But I will find my way<br>Out of the dark someday<br>Into a crimson yellow sun<br>I'll follow my baby boy<br>He'll be a silver toy<br>And we'll count the ages as they're ending<br><br>But I will find my way<br>Out of the dark someday<br>Into a flash of solar inspiration<br>I'll follow my baby boy<br>He'll be a silver toy<br>And we'll count the ages as they're ending</p>"
+			},
+			{
+				"name": "Sweet And Low",
+				"uri": "sweet-and-low",
+				"time": "4:03",
+				"lyrics": "<p style='text-align:center'>Nothing tastes like sugar <br>it's all sweet and low<br><br>Nothing drinks like lemonade,<br>nothing skips like stone<br><br>Nothing runs like water<br>when your one true love is gone<br><br>And every day that comes along<br>has a silver medal on<br><br>---<br><br>Nothing soars like falcons<br>it's all paper planes<br><br>Nothing stings like thistles<br>and nothing floods like rain<br><br>Nothing roars like fire<br>when you're standing on your own<br><br>No shelter from the coming storm<br>will ever feel like home<br><br>---<br><br>Nothing's cut like diamond<br>it's all shades of coal<br><br>Nothing breaks like tidal waves,<br>nothing mends like bone<br><br>Nothing tastes like sugar<br>when your love can never return<br><br>How to feel with half your heart <br>is the toughest thing to learn</p>",
+				"video": "http://player.vimeo.com/video/42336634"
+			}
+		],
+		"photonote": "Images courtesy NOAA",
+		"photos": [
+			{
+				"web": "http://cdn.darlingside.com/website/noaa/wea01108-sm-comp.jpeg",
+				"mobile": "http://cdn.darlingside.com/website/noaa/wea01108-sm-mobile.jpg",
+				"title": "Image courtesy NOAA"
+			},
+			{
+				"web": "http://cdn.darlingside.com/website/noaa/wea01118-sm-comp.jpeg",
+				"mobile": "http://cdn.darlingside.com/website/noaa/wea01118-sm-mobile.jpg",
+				"title": "Image courtesy NOAA"
+			},
+			{
+				"web": "http://cdn.darlingside.com/website/noaa/wea01117-r-comp.jpeg",
+				"mobile": "http://cdn.darlingside.com/website/noaa/wea01117-r-mobile.jpg",
+				"title": "Image courtesy NOAA"
+			},
+			{
+				"web": "http://cdn.darlingside.com/website/noaa/wea01106-f.jpg",
+				"mobile": "http://cdn.darlingside.com/website/noaa/wea01106-f-mobile.jpg",
+				"title": "Image courtesy NOAA"
+			},
+			{
+				"web": "http://cdn.darlingside.com/website/noaa/ship3019-flip-comp.jpeg",
+				"mobile": "http://cdn.darlingside.com/website/noaa/ship3019-flip-mobile.jpg",
+				"title": "Image courtesy NOAA"
+			}
+		],
+		"store": {
+			"api": "https://www.e-junkie.com/ecom/gb.php?c=cart&cl=123787&ejc=2",
+			"itunes": "http://bit.ly/pilotmachines",
+			"items": [
+				{
+					"id": "PMDMP3",
+					"options": [
+						{
+							"id": "MP3",
+							"name": "MP3 (320 kbps)"
+						},
+						{
+							"id": "AAC",
+							"name": "AAC (320 kbps)"
+						},
+						{
+							"id": "AIFF",
+							"name": "AIFF (44.1 kHz/16-bit)"
+						},
+						{
+							"id": "WAV",
+							"name": "WAV (88.2 kHz/24-bit)"
+						}
+					],
+					"name": "Instant Download",
+					"image": "http://cdn.darlingside.com/website/store/pilotmachines-mp3-comp.jpeg",
+					"price": "$10.00",
+					"notes": "All twelve tracks from Darlingside's debut full-length album. Includes twelve high quality MP3s, album artwork, lyrics and liner notes."
+				},
+				{
+					"id": "PMCD",
+					"name": "CD + Download",
+					"image": "http://cdn.darlingside.com/website/store/pilotmachines-cd-sm-comp.png",
+					"price": "$15.00",
+					"notes": "Darlingside's debut full-length album. Includes insert with liner notes and lyrics. <em>Includes instant MP3 download of the album.</em>"
+				},
+				{
+					"id": "PMDBS",
+					"name": "LP + CD Discbox Set",
+					"image": "http://cdn.darlingside.com/website/store/pilotmachines-discbox-sm-comp.png",
+					"price": "$40.00",
+					"notes": "Darlingside's debut full-length album, on both CD and Double Vinyl LP (200 Gram Audiophile Virgin Vinyl). Hand-letterpressed packaging by Bruce Licher. Includes insert with liner notes and lyrics. <em>Includes instant MP3 download of the album.</em>"
+				},
+				{
+					"id": "7INCHES",
+					"name": "Pre-Release 7\" Set",
+					"image": "http://cdn.darlingside.com/website/store/7inches-sm-comp.png",
+					"price": "$25.00",
+					"notes": "All three limited edition Pilot Machines pre-releases on 7\" 45rpm vinyl. Hand-letterpressed packaging by Bruce Licher. Each includes foldable download card.<em>Includes instant MP3 download of six tracks.</em>"
+				}
+			]
+		},
+		"thanks": {
+			"text": "A special thank you to Chris and Joey<br><br>Thanks to our parents, families, friends, and hosts along the way for constant love and support: Abby, Adam and Cooper and Sarah, Amanda, Arnob and Aroop, Ashley and James, Betty and Tyson, Buddy and the staff at Conway, Carrie, Cathy and Mike, Chauncey, Christina, Cleve and Lucia, Dan, Deb and Dex, Eli, Ellen and Scott, Erik, Georgia and Robert, Geraldine and Joe, Hannah, Jen and Josh, Jhulan and Jyoti, Jim, John and Kendall, Jordan and Maddie, Julianna, Justine and Lila, Karen and Pete, Leah, Lynn and Michael, Maddie, Mary and Sibs, Mindy, Owen, Peebs, Peter, Sam and David, Shea, Tim and the staff at The Studio, Topher<br><br>Thanks to Audio Technica, D'Addario, Duesenberg *USA, Evans, Sennheiser, and Strymon for exceptional equipment"
+		}
+	}
+}
