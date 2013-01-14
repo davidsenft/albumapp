@@ -85,6 +85,26 @@ function init(){
 		}
 	}
 	document.onclick = clickListener;
-	
+
+	/* FULL-SCREEN IMAGES */
+	$.supersized({
+		start_slide			: 0,
+		horizontal_center	: 1,
+		fit_portrait		: 0,
+		fit_landscape		: 1,
+		slides				: [<?php
+			$str = ""; $size = $mobile ? 'mobile' : 'web';
+			foreach($albumdata->{'photos'} as $photo)
+				$str .= "{image : '" . $photo->{$size} . "', title : '" . $photo->{'title'} . "'}, ";
+			echo rtrim($str, ",");
+		?>],
+		
+		/* slideshow only */
+		random				: 1,
+		slide_interval		: 3000,
+		transition_speed	: 6000,
+		keyboard_nav		: 0
+	});
+
 	$.post("/tracker.php", {type: "ref", id: "<?php echo $ref; ?>", sess: rando});
 }

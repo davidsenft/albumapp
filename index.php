@@ -100,7 +100,6 @@ if (isset($_GET['track'])){
 <script type="text/javascript" src="js/handlebars-1.0.rc.1.min.js"></script>
 <script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
 <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
-<script type="text/javascript" src="js/albumapp.js"></script>
 <!--<script type="text/javascript" src="js/jquery.easyModal.min.edit.js"></script>-->
 <script type="text/javascript">
 
@@ -129,25 +128,7 @@ $(document).ready(function(){
 		
 	});
 
-	/* FULL-SCREEN IMAGES */
-	$.supersized({
-		start_slide			: 0,
-		horizontal_center	: 1,
-		fit_portrait		: 0,
-		fit_landscape		: 1,
-		slides				: [<?php
-			$str = ""; $size = $mobile ? 'mobile' : 'web';
-			foreach($albumdata->{'photos'} as $photo)
-				$str .= "{image : '" . $photo->{$size} . "', title : '" . $photo->{'title'} . "'}, ";
-			echo rtrim($str, ",");
-		?>],
-		
-		/* slideshow only */
-		random				: 1,
-		slide_interval		: 3000,
-		transition_speed	: 6000,
-		keyboard_nav		: 0
-	});
+	<?php require_once('albumapp.js.php'); ?>
 
 });
 

@@ -76,7 +76,7 @@ body {
 	width:100%;
 	margin:0;
 	padding:10px 0;
-	background-image:url(../img/bg-black-40-comp.png);
+	background-image:url(../img/black-40-percent.png);
 }
 
 h1 {
@@ -126,7 +126,7 @@ ol#albumtracks li {
 
 ol#albumtracks li.over {
 	cursor:pointer;
-	background: url(../img/bg-black-40-comp.png);
+	background: url(../img/black-40-percent.png);
 }
 
 div#albumlegal a {
@@ -418,7 +418,7 @@ button.over, a.button.over {
 		right:20px;
 		width:400px;
 		padding:0 10px;
-		background:transparent url(../img/bg-black-40-comp.png);
+		background:transparent url(../img/black-40-percent.png);
 		-webkit-border-radius: 2px;
 		-moz-border-radius: 2px;
 		border-radius:2px;
