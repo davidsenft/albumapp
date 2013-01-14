@@ -116,7 +116,7 @@ img#albumcover {
 	width:100%;
 }
 
-div#black {
+div#dots {
 	z-index:-1;
 	position:fixed;
 	width:100%;
