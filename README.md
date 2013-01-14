@@ -1,7 +1,5 @@
-# Album App #
+# The Album App #
 
-## A (visual) app for your (musical) album ##
-
-### By Darlingside ###
+## By Darlingside ##
 
 See a live demo <a href='http://www.pilotmachines.com/'>here</a>
