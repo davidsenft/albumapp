@@ -8,9 +8,9 @@ session_start();
 include('devices.php');
 
 // ==============================
-// CUSTOM VISITOR LOGGING
+// CUSTOM VISITOR CLICK LOGGING
 // ==============================
-if (isset($_SERVER['HTTP_REFERER'])) $ref = str_replace("http://", "", $_SERVER['HTTP_REFERER']);
+$ref = isset($_SERVER['HTTP_REFERER']) ? str_replace("http://", "", $_SERVER['HTTP_REFERER']) : "";
 
 // ==============================
 // FETCH THE ALBUM DATA FROM JSON
@@ -23,7 +23,6 @@ $title = $album . " | An album by " . $artist;
 $desc = $albumdata->{'appdescription'};
 $key = strtolower($album . " lyrics, " . $artist . " lyrics, stream " . $album . ", stream" . $artist);
 
-
 // ==============================
 // IF LINKING TO A SPECIFIC TRACK
 // ==============================
@@ -32,8 +31,12 @@ if (isset($_GET['track'])){
 	foreach($tracks as $track){
 		if ($track->{'uri'} == $_GET['track']){
 			$song = $track->{'name'};
+			// track-specific SEO title
 			$title = "\"" . $song . "\" by " . $artist . " | Lyrics and Streaming Audio";
+			// add track-specific SEO keywords
 			$key .= ", " . strtolower($song . " lyrics, " . $song . " streaming");
+			// use track lyrics as SEO description
+			$desc = strip_tags(str_replace("<br>","/",str_replace('"',"",$track->{'lyrics'})));
 			break;
 		}
 	}
@@ -145,7 +148,7 @@ HELP US MAKE IT BETTER AT https://github.com/davidsenft/albumapp
 
 $(document).ready(function(){
 	
-	var rando = "<?php echo session_id(); ?>";
+	var rando = "<?php echo md5(session_id()); ?>";
 	<?php if ($android || $firefox || isset($_GET['track'])){ ?>
 	var autoscroll = true;
 	<?php }else{ ?>
