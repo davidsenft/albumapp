@@ -20,7 +20,9 @@ $albumdata = $data->{'albumdata'};
 $album = $albumdata->{'name'};
 $artist = $albumdata->{'artist'}->{'name'};
 $title = $album . " | An album by " . $artist;
+$desc = $albumdata->{'appdescription'};
 $key = strtolower($album . " lyrics, " . $artist . " lyrics, stream " . $album . ", stream" . $artist);
+
 
 // ==============================
 // IF LINKING TO A SPECIFIC TRACK
@@ -38,6 +40,7 @@ if (isset($_GET['track'])){
 }
 
 ?>
+<!DOCTYPE html>
 <!--
 ################################################################
 
@@ -46,7 +49,6 @@ HELP US MAKE IT BETTER AT https://github.com/davidsenft/albumapp
 
 ################################################################
 -->
-<!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]--> 
 <!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]--> 
 <!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]--> 
@@ -87,6 +89,7 @@ HELP US MAKE IT BETTER AT https://github.com/davidsenft/albumapp
 
 
 	-->
+	<meta name="description" content="<?php echo $desc; ?>">
 	<meta name="keywords" content="<?php echo $key; ?>">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
