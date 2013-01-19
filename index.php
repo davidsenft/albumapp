@@ -108,6 +108,7 @@ HELP US MAKE IT BETTER AT https://github.com/davidsenft/albumapp
 	<div id='album'>
 	</div>
 </div>
+
 <div id='player'>
 	<p id='inplayer'>
 		<a id='track-prev' class="entypo" href="#">&#9194;</a>
@@ -122,11 +123,14 @@ HELP US MAKE IT BETTER AT https://github.com/davidsenft/albumapp
 		</span>
 	</p>
 </div>
+
 <div id='buttons'>
 	<button id='more' class='hover'>More</button>
 	<button id='buy' class='hover'>Buy</button>
 </div>
+
 <div id="jplayer"></div>
+
 <div id='dots'></div>
 
 <?php include('album-template.html'); ?>

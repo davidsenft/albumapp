@@ -1,11 +1,15 @@
 <script id="album-template" type="text/x-handlebars-template" data-template-name="application">
 {{#with albumdata}}
+
+<!-- // ALBUM TITLE AND INFO -->
 <h1 class='noborder'>{{name}}</h1>
 <h2 class='noborder'>An album by {{artist.name}}</h2>
 <img id='albumcover' src="{{cover}}" alt="Album cover of {{name}} by {{artist.name}}">
 <div class='topborder' id='albuminstructions'>
 	<p class='bebas'>Click any track:</p>
 </div>
+
+<!-- // TRACK LISTING -->
 <ol id='albumtracks'>
 {{#each tracks}}
 	<li id='{{this.uri}}' class='track hover'>
@@ -14,15 +18,23 @@
 	</li>
 {{/each}}
 </ol>
+
+<!-- // LINER NOTES -->
 <div id='albumnotes'>
 	{{{notes}}}
 </div>
+
+<!-- // TRACK LYRICS -->
 {{#each tracks}}
 	<h3 id='{{this.uri}}-title'>{{this.name}}</h3>
 	<div id='{{this.uri}}-lyrics' class='lyrics'>
 		{{{this.lyrics}}}
 	</div>
 {{/each}}
+
+<!-- // STORE -->
+<!-- // CURRENTLY ONLY SUPPORTS STORES ON E-JUNKIE -->
+<!-- // WORKING ON INCORPORATING A BUILT-IN STORE! -->
 <h2 id='store'>How to Buy</h2>
 {{#each store.items}}
 	<h3 id='{{this.id}}-item' class='item'>{{this.name}}, {{this.price}}</h3>
@@ -32,6 +44,8 @@
 		<a target='pmej' id='{{this.id}}-add' class='button add hover' href='{{../store.api}}&i={{this.id}}'>Add to Cart</a>
 	</p>
 {{/each}}
+
+<!-- // LINKS, SOCIAL MEDIA, ETC. -->
 <h2 id='getmore'>More from {{artist.name}}</h2>
 <p id='morefrom'>
 	{{#with artist}}
@@ -49,6 +63,8 @@
 		<span class='entypo'>&#128197;</span><span class='text'> Tour Schedule</span></a><br>-->
 	{{/with}}
 </p>
+
+<!-- // ACKNOWLEDGEMENTS AND LEGAL -->
 <h2>Thanks</h2>
 <div id='thanks'>
 	<p>{{{thanks.text}}</p>
