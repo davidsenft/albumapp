@@ -7,7 +7,10 @@ ob_start( 'ob_gzhandler' );
 session_start();
 include('devices.php');
 
-$ref = '';
+// ==============================
+// CUSTOM VISITOR LOGGING
+// ==============================
+if (isset($_SERVER['HTTP_REFERER'])) $ref = str_replace("http://", "", $_SERVER['HTTP_REFERER']);
 
 // ==============================
 // FETCH THE ALBUM DATA FROM JSON
@@ -35,7 +38,14 @@ if (isset($_GET['track'])){
 }
 
 ?>
+<!--
+################################################################
 
+ALBUM APP BY DARLINGSIDE ####### OPEN SOURCE ALBUM COMPANION APP
+HELP US MAKE IT BETTER AT https://github.com/davidsenft/albumapp
+
+################################################################
+-->
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]--> 
 <!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]--> 
@@ -49,8 +59,31 @@ if (isset($_GET['track'])){
 	<!--
 
 
-	ALBUM APP BY DARLINGSIDE
-	A FREE AND OPEN SOURCE VISUAL ALBUM COMPANION APP FOR WEB AND MOBILE
+           .ZZOO+ZZOZ$OZOOOI:.
+         .IO8NNMMNMNMNMNNMNNNNND8O .
+          $D 8NMNNMMMMNNNMMMNNNMNN8D~
+          ID~IONNDNNMMNMMNNMMNMNMMNMN8,
+          ~D.8 INMMMMMNM8$DZ$NMMMNMNMND8
+          ?8.Z 8IDMMMMMMD7 ? I +DNNMMNNDD
+          :D.Z $  NNMMNMMO + I : DNNNNNNMN
+          $8 8 8 Z NNNMMMNN  : ~7 ZMMMNMMN8
+          ?D 8.O.Z  ZMMNMMNN =..7 Z?NNMMMMND
+             8 8.Z Z ZDNNDMMD. .O $ .NNMNMMN8.
+            .O 8.$ I. 7NMMMMMN..O 8 D OMMNMNM8.
+               8 Z I.7 ,NNMMMMN?  Z O  OMMMNNN$
+              .8 $ 7,$ 7 NMMMMNM8 8.O.Z.NMMNMMN.
+                 O.7=Z O .8NMMNMM8. O.$.8MNMNM$:
+                .O:$=Z I I.8NNMMMMD?+I7DMMMMMMD,
+                .  7I$.$ O. OMMNMMNMDNNDNMMMMN8.
+                   $ZZ.I.Z,=.=NMMNMNDMMMMNMMMO,Z.
+                     7:$ I,+:.~NMMNDMMMMMMNN.7,D 
+                    . .7.$:::+~ : , . . .  8.8,D. 
+                       8:$~:~==.O Z $ 7.7=.O O.8
+                      ...Z$==.7 8 8 Z ?.7I.8 8.8.
+                         ZO$$.$ D O O =,II 8.O.O 
+                           $O=Z 8 O O ?:$$ 8 O:O 
+                           +8+8.D.O.D Z~ZO Z,D 
+                            .$O~N.8.O.ZIZ8 $
 
 
 	-->
@@ -58,8 +91,7 @@ if (isset($_GET['track'])){
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
-	<!--<link rel="shortcut icon" href="/favicon.ico">-->
-	<!--<link rel="apple-touch-icon" href="/apple-touch-icon.png">-->
+	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/style.css?v=5" type="text/css">
 
@@ -107,9 +139,10 @@ if (isset($_GET['track'])){
 $(document).ready(function(){
 	
 	var rando = "<?php echo session_id(); ?>";
-	var autoscroll = false;
 	<?php if ($android || $firefox || isset($_GET['track'])){ ?>
-	autoscroll = true;
+	var autoscroll = true;
+	<?php }else{ ?>
+	var autoscroll = false;
 	<?php } ?>
 	var context = {};
 	var jplayer = $("#jplayer");
